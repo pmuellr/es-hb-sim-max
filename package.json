@@ -1,0 +1,30 @@
+{
+  "name": "es-hb-sim-max",
+  "private": true,
+  "description": "elasticsearch heartbeat simulator in Max",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/es-hb-sim-max",
+  "scripts": {
+    "standard": "standard --verbose && node tools/run-all npm run -s standard",
+    "test": "npm run -s standard",
+    "watch": "nodemon --exec 'npm run -s test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/es-hb-sim-max.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/es-hb-sim-max/issues"
+  },
+  "standard": {
+    "ignore": [
+      "tmp/**/*",
+      "docs/**/*"
+    ]
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
